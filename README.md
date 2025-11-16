@@ -14,7 +14,7 @@ DESCRIPTION OF THE TASK:
 
 The Word Frequency Counter Refactor is a Python project focused on improving the performance, readability, and reliability of a real-world text processing function. The goal of this task is to take an existing, simple word-counting function and optimize it for accuracy, speed, and maintainability, demonstrating practical software engineering principles such as proper file handling, efficient data structures, and clean coding practices.
 
-The original code reads a text file, splits it into words by spaces, and counts occurrences using a standard Python dictionary. While functional, it has several limitations:
+**The original code reads a text file, splits it into words by spaces, and counts occurrences using a standard Python dictionary. While functional, it has several limitations:**
 
 Manual file handling using open() and close() risks leaving files open if an exception occurs.
 
@@ -26,7 +26,7 @@ No type hints or error handling, making it harder to maintain or use in larger p
 
 The refactored version addresses these limitations by applying Python best practices and built-in libraries.
 
-Key improvements in the optimized version:
+**Key improvements in the optimized version:**
 
 Safe File Handling: Uses the with statement to open files, ensuring that resources are automatically released, even if an error occurs.
 
@@ -38,7 +38,7 @@ Type Hints and Docstrings: Adds clear type annotations and a descriptive docstri
 
 Error Handling: Raises a descriptive FileNotFoundError if the input file does not exist, improving robustness.
 
-The project runs on VS Code, a professional code editor ideal for Python development. VS Code provides features like intelligent autocompletion, debugging tools, and integrated terminal support, making it easier to test, profile, and maintain the code. Running the optimized script locally allows developers to measure performance improvements on files of any size and verify correctness instantly.
+The project runs on **VS Code**, a professional code editor ideal for Python development. VS Code provides features like intelligent autocompletion, debugging tools, and integrated terminal support, making it easier to test, profile, and maintain the code. Running the optimized script locally allows developers to measure performance improvements on files of any size and verify correctness instantly.
 
 This refactor has practical applications in text analysis, data preprocessing, and natural language processing (NLP) pipelines. It can be used in scenarios such as:
 
